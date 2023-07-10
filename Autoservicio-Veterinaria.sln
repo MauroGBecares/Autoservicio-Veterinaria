@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaz", "Code-test-L2\Interfaz.csproj", "{2E33D23E-13CB-4B16-9899-202603F39809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{205438CD-CEEE-45C8-A4DD-4F8750CE332D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{FC8621F2-53D8-4D46-AA88-23DC46CF9FA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E33D23E-13CB-4B16-9899-202603F39809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E33D23E-13CB-4B16-9899-202603F39809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E33D23E-13CB-4B16-9899-202603F39809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E33D23E-13CB-4B16-9899-202603F39809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205438CD-CEEE-45C8-A4DD-4F8750CE332D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205438CD-CEEE-45C8-A4DD-4F8750CE332D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205438CD-CEEE-45C8-A4DD-4F8750CE332D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205438CD-CEEE-45C8-A4DD-4F8750CE332D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8621F2-53D8-4D46-AA88-23DC46CF9FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8621F2-53D8-4D46-AA88-23DC46CF9FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8621F2-53D8-4D46-AA88-23DC46CF9FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8621F2-53D8-4D46-AA88-23DC46CF9FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {021BFFFA-18F0-4552-80C0-53257E2CAE96}
+	EndGlobalSection
+EndGlobal
