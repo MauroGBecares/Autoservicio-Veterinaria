@@ -1,4 +1,4 @@
-﻿namespace Code_test_L2
+﻿namespace Interfaz
 {
     partial class HistorialPedidos
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HistorialPedidos));
             this.dgvListadoPedidos = new System.Windows.Forms.DataGridView();
             this.btnMarcarDespachado = new System.Windows.Forms.Button();
             this.btnCancelarPedido = new System.Windows.Forms.Button();
@@ -49,6 +50,7 @@
             // 
             // btnMarcarDespachado
             // 
+            this.btnMarcarDespachado.Font = new System.Drawing.Font("Arial", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMarcarDespachado.Location = new System.Drawing.Point(789, 73);
             this.btnMarcarDespachado.Name = "btnMarcarDespachado";
             this.btnMarcarDespachado.Size = new System.Drawing.Size(147, 43);
@@ -59,10 +61,11 @@
             // 
             // btnCancelarPedido
             // 
+            this.btnCancelarPedido.Font = new System.Drawing.Font("Arial", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarPedido.Location = new System.Drawing.Point(789, 73);
             this.btnCancelarPedido.Name = "btnCancelarPedido";
             this.btnCancelarPedido.Size = new System.Drawing.Size(147, 43);
-            this.btnCancelarPedido.TabIndex = 2;
+            this.btnCancelarPedido.TabIndex = 1;
             this.btnCancelarPedido.Text = "Cancelar Pedido";
             this.btnCancelarPedido.UseVisualStyleBackColor = true;
             this.btnCancelarPedido.Click += new System.EventHandler(this.btnCancelarPedido_Click);
@@ -71,13 +74,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.Peru;
             this.ClientSize = new System.Drawing.Size(948, 573);
             this.Controls.Add(this.btnCancelarPedido);
             this.Controls.Add(this.btnMarcarDespachado);
             this.Controls.Add(this.dgvListadoPedidos);
             this.ForeColor = System.Drawing.SystemColors.WindowText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HistorialPedidos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Historial Pedidos";

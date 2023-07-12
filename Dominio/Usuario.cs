@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 
 namespace Dominio
 {
@@ -15,5 +10,7 @@ namespace Dominio
         public string ApellidoNombre { get; set; }
         [DisplayName("Dirección")]
         public string Direccion { get; set; }
+        [DisplayName("Teléfono")]
+        public string Telefono { get; set; }
     }
 }

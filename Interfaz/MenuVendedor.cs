@@ -1,18 +1,15 @@
 ﻿using Dominio;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Code_test_L2
+namespace Interfaz
 {
     public partial class MenuVendedor : Form
     {
+        /*
+         * A esta ventana solo puede ingresar usuario como Vendedor en el cual puede ver los pedidos recibidos(dentro podra despacharlos),
+         * ver listado de vendedores, listado de clientes/mascotas y puede crear un nuevo usuario como Vendedor.
+         */
         private Vendedor user;
         public MenuVendedor(Vendedor vendedor)
         {

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.ComponentModel;
 
 namespace Dominio
@@ -12,6 +8,7 @@ namespace Dominio
         [DisplayName("Nro. Pedido")]
         public int CodigoPedido { get; set; }
         public string Cliente { get; set; }
+        [DisplayName("Fecha y Hora")]
         public DateTime Fecha { get; set; }
         public string Vendedor { get; set; }
         [DisplayName("Cantidad (kg)")]

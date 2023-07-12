@@ -1,20 +1,17 @@
 ﻿using Dominio;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Code_test_L2
+namespace Interfaz
 {
     public partial class MenuCliente : Form
     {
+        /* 
+         * Solo se ingresa a esta ventana si el usuario es cliente y puede realizar registro de mascotas,
+         * realizar pedidos y ver historial de pedidos(se puede cancelar un pedido segun la condicion del mismo).
+         */
         private Cliente user;
-        public MenuCliente(Cliente cliente)
+        public MenuCliente(Cliente cliente) 
         {
             this.user = cliente;
             InitializeComponent();
@@ -30,11 +27,6 @@ namespace Code_test_L2
         {
             CargarPedido ventana = new CargarPedido(user);
             ventana.ShowDialog();
-        }
-
-        private void MenuCliente_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void btnVerHistoriaPedidos_Click(object sender, EventArgs e)

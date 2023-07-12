@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using BaseDatos;
+using System;
 using System.Windows.Forms;
-using Helpers;
-using Dominio;
 
-namespace Code_test_L2
+namespace Interfaz
 {
     internal static class Program
     {

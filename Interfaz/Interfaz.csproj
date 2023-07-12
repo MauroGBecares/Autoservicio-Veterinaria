@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2E33D23E-13CB-4B16-9899-202603F39809}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Code_test_L2</RootNamespace>
-    <AssemblyName>Code-test-L2</AssemblyName>
+    <RootNamespace>Interfaz</RootNamespace>
+    <AssemblyName>Interfaz</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -122,6 +122,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RegistrarMascota.resx">
       <DependentUpon>RegistrarMascota.cs</DependentUpon>
@@ -143,6 +144,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BaseDatos\BaseDatos.csproj">
+      <Project>{12638c73-8849-432c-9305-fb6ea8eace72}</Project>
+      <Name>BaseDatos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Dominio\Dominio.csproj">
       <Project>{205438cd-ceee-45c8-a4dd-4f8750ce332d}</Project>
       <Name>Dominio</Name>
