@@ -51,18 +51,40 @@ namespace Interfaz
         {
             if (user is Vendedor)
             {
+                dgvListaVendedoresClientes.AutoGenerateColumns = false;
+
+                DataGridViewTextBoxColumn nombreApellidoColumn = new DataGridViewTextBoxColumn();
+                nombreApellidoColumn.HeaderText = "Apellido y Nombre";
+                nombreApellidoColumn.DataPropertyName = "ApellidoNombre";
+
+                DataGridViewTextBoxColumn direccionColumn = new DataGridViewTextBoxColumn();
+                direccionColumn.HeaderText = "Dirección";
+                direccionColumn.DataPropertyName = "Direccion";
+
+                DataGridViewTextBoxColumn telefonoColumn = new DataGridViewTextBoxColumn();
+                telefonoColumn.HeaderText = "Teléfono";
+                telefonoColumn.DataPropertyName = "Telefono";
+
+                DataGridViewTextBoxColumn cantidadVentasColumn = new DataGridViewTextBoxColumn();
+                cantidadVentasColumn.HeaderText = "Cantidad de Ventas";
+                cantidadVentasColumn.DataPropertyName = "CantidadVentas";
+
+                dgvListaVendedoresClientes.Columns.AddRange(new DataGridViewColumn[] {
+                nombreApellidoColumn, direccionColumn, telefonoColumn, cantidadVentasColumn
+                });
                 listaVendedores = Utilities.cargarVendedores();
                 dgvListaVendedoresClientes.DataSource = listaVendedores;
-                ocultarColumnas();
             }
             else if (user is null)
             {
+                dgvListaVendedoresClientes.AutoGenerateColumns = true;
                 listaClientes = Utilities.cargarClientes();
                 dgvListaVendedoresClientes.DataSource = listaClientes;
                 ocultarColumnas();
             }
             else if (user is Cliente cliente)
             {
+                dgvListaVendedoresClientes.AutoGenerateColumns = true;
                 dgvListaVendedoresClientes.DataSource = cliente.Mascotas;
             }
         }

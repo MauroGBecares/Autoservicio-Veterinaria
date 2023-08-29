@@ -38,7 +38,7 @@
             // 
             this.btnRegistrarMascota.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnRegistrarMascota.Font = new System.Drawing.Font("Arial", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarMascota.Location = new System.Drawing.Point(135, 57);
+            this.btnRegistrarMascota.Location = new System.Drawing.Point(135, 68);
             this.btnRegistrarMascota.Name = "btnRegistrarMascota";
             this.btnRegistrarMascota.Size = new System.Drawing.Size(248, 70);
             this.btnRegistrarMascota.TabIndex = 0;
@@ -50,9 +50,9 @@
             // 
             this.btnRealizarPedido.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnRealizarPedido.Font = new System.Drawing.Font("Arial", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRealizarPedido.Location = new System.Drawing.Point(135, 133);
+            this.btnRealizarPedido.Location = new System.Drawing.Point(135, 144);
             this.btnRealizarPedido.Name = "btnRealizarPedido";
-            this.btnRealizarPedido.Size = new System.Drawing.Size(248, 84);
+            this.btnRealizarPedido.Size = new System.Drawing.Size(248, 73);
             this.btnRealizarPedido.TabIndex = 1;
             this.btnRealizarPedido.Text = "Realizar pedido";
             this.btnRealizarPedido.UseVisualStyleBackColor = true;
@@ -64,7 +64,7 @@
             this.btnVerHistorialPedidos.Font = new System.Drawing.Font("Arial", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerHistorialPedidos.Location = new System.Drawing.Point(135, 223);
             this.btnVerHistorialPedidos.Name = "btnVerHistorialPedidos";
-            this.btnVerHistorialPedidos.Size = new System.Drawing.Size(248, 85);
+            this.btnVerHistorialPedidos.Size = new System.Drawing.Size(248, 74);
             this.btnVerHistorialPedidos.TabIndex = 2;
             this.btnVerHistorialPedidos.Text = "Ver el histórico de sus pedidos";
             this.btnVerHistorialPedidos.UseVisualStyleBackColor = true;
